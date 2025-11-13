@@ -24,6 +24,8 @@ import "./routes/Projectors";
 import "./routes/Screenings";
 import "./routes/Seats";
 import "./routes/Theaters";
+import "./routes/Empleados";
+import "./routes/Turnos";
 
 Route.get("/", async () => {
   return { hello: "world" };
